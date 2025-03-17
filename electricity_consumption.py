@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestRegressor
 import streamlit as st
 
-data = pd.read_csv(r'C:\Users\Syed_Sharjeel\Desktop\SS\DS\Elecricity Consumption\smart_meter_data.csv')
+data = pd.read_csv(r'smart_meter_data.csv')
 data = data.drop('Timestamp', axis=1)
 
 encoder = LabelEncoder()
