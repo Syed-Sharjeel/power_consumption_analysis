@@ -34,5 +34,5 @@ if submitted:
 
     if result < 0.5:
         st.write("Abnormal Power Consumption")
-    elif result < 0.5:
+    elif result >= 0.5:
         st.write("Normal Power Consumption")    
